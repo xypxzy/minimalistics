@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-image: url(Shape.png);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: 700px 700px;
+}
+
+.header {
+    width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 150px;
+}
+
+.menu a {
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.intro {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__text {
+    margin-top: 160px;
+}
+
+.intro__text p {
+    width: 350px;
+}
+
+.intro__text a {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.intro__main__text {
+    width: 400px;
+    margin-top: 220px;
+    margin-right: 110px;
+    line-height: 0.7;
+}
+
+.intro__main__text h1 {
+    font-size: 96px;
+}
+
+.intro__image {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 550px;
+}
+
+.sm__icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1800px;
+    padding-top: 250px;
+}
+
+.sm__icon p {
+    font-weight: 600;
+    font-size: 20px;
+}
